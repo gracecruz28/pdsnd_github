@@ -13,7 +13,7 @@ def get_filters():
     Asks user to specify a city, month, and day to analyze.
 
     Returns:
-        (str) city - name of the city to analyze
+        (str) city - name of the city to analyze. Choose from chicago, new york city or washington
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
@@ -184,7 +184,7 @@ def user_stats(df):
     start_time = time.time()
 
     # Display counts of user types
-    print('\nUser Type Counts:')
+    print('\nCounts of User Type:')
     print(df['User Type'].value_counts())
 
     
@@ -210,12 +210,6 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-    
-    #per_row = df.iloc[0].to_dict()
-    #print(per_row)
-
-    #per_dic = df.set_index('Unnamed: 0').to_dict('list')
-    #print(per_dic)
     
     counter = 0
     counter1 = 5

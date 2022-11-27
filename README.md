@@ -4,13 +4,13 @@
 November 26, 2022
 
 ### Project Title
-Bikeshare Analysis
+Bikeshare Data Analysis
 
 ### Description
 Analyzing Bikeshare US data in major cities such as Chicago, New York City and Washington, DC.
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.

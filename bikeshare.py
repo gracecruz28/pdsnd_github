@@ -184,7 +184,7 @@ def user_stats(df):
     start_time = time.time()
 
     # Display counts of user types
-    print('\nUser Type Counts:')
+    print('\nCounts of User Type:')
     print(df['User Type'].value_counts())
 
     

@@ -211,12 +211,6 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
     
-    #per_row = df.iloc[0].to_dict()
-    #print(per_row)
-
-    #per_dic = df.set_index('Unnamed: 0').to_dict('list')
-    #print(per_dic)
-    
     counter = 0
     counter1 = 5
     d_data = 'yes'
